@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Run this script to setup the app
+
+# Exit if any subcommand fails
+set -e
+
+if command -v asdf > /dev/null; then
+  asdf install
+fi
+
+# Install dependencies
+gem install bundler --conservative
+bundle check || bundle install
+npm install
+
+# Set up development environment config
+if [ ! -f .env ]; then
+  cp .env.sample .env
+fi

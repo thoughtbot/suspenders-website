@@ -1,0 +1,12 @@
+eslint:
+  enabled: true
+  config_file: .eslintrc.json
+  version: 6.3.0
+ruby:
+  enabled: true
+scss:
+  enabled: false
+stylelint:
+  enabled: true
+  config_file: .stylelintrc.json
+  version: 10.1.0
