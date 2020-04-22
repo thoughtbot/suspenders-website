@@ -1,8 +1,11 @@
-# Project Name
+# Suspenders
 
-This app is built with [Middleman].
+This is the source code for the Suspenders website. It’s built with [Middleman].
+
+You can find the [Suspenders library source code here][suspenders].
 
 [Middleman]: https://middlemanapp.com/
+[suspenders]: https://github.com/thoughtbot/suspenders
 
 ## Prerequisites
 
