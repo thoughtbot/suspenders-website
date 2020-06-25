@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@thoughtbot/design-system": "^0.7.0",
     "bourbon": "^6.0.0",
     "normalize.css": "^8.0.1",
     "sass": "^1.23.7"

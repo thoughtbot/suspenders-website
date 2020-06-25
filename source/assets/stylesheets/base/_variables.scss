@@ -8,15 +8,23 @@ $heading-line-height: 1.2;
 
 // Other Sizes
 $base-border-radius: 3px;
-$base-spacing: 1.5em;
+$base-spacing: 1.5rem;
 $small-spacing: $base-spacing / 2;
+$x-small-spacing: $small-spacing / 2;
+$xx-small-spacing: $x-small-spacing / 2;
+$medium-spacing: $base-spacing * 2;
+$large-spacing: $base-spacing * 3;
+$x-large-spacing: $medium-spacing * 2;
+$xx-large-spacing: $x-large-spacing * 1.5;
 $base-z-index: 0;
 
 // Colors
 $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
-$light-gray: #ddd;
+$light-gray: #f0f0f2;
+$smoky-white: #f5f5f5;
+$white: #fff;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -38,3 +46,9 @@ $focus-outline-offset: 2px;
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+$breakpoint-small: 35em;
+$breakpoint-medium: 48em;
+$breakpoint-large: 60em;
+$breakpoint-x-large: 75em;
+$breakpoint-xx-large: 100em;

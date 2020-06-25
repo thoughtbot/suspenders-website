@@ -1,0 +1,20 @@
+<nav class="tbds-app-frame__header c-site-nav">
+  <%= link_to("Skip to main content", "#main", class: "tbds-skip-link") %>
+
+  <% link_to(data.site.thoughtbot_url) do %>
+    <%= image_tag(
+      data.site.thoughtbot_logo_url,
+      alt: "thoughtbot logo",
+      class: "c-site-nav__logo"
+    ) %>
+  <% end %>
+
+  <ul class="c-site-nav__links">
+    <li>
+      <%= link_to("GitHub", data.site.github_url, class: "c-site-nav__link") %>
+    </li>
+    <li>
+      <%= link_to("RubyGems", data.site.rubygems_url, class: "c-site-nav__link") %>
+    </li>
+  </ul>
+</nav>

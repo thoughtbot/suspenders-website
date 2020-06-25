@@ -1,0 +1,17 @@
+.container {
+  @include margin(null auto);
+  @include padding(null (spacing(4)));
+  max-width: 90rem;
+
+  @media (min-width: $breakpoint-medium) {
+    @include padding(null (spacing(6)));
+  }
+
+  @media (min-width: $breakpoint-x-large) {
+    @include padding(null $large-spacing);
+  }
+}
+
+.container--body {
+  margin-top: 8em;
+}

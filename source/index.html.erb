@@ -1,8 +1,79 @@
-<h1>
-  Suspenders
-</h1>
+<header class="c-page-header">
+  <h1 class="c-page-header__title">
+    Suspenders
+  </h1>
 
-<%= link_to(
-  "GitHub",
-  "https://github.com/thoughtbot/suspenders",
-) %>
+  <p class="c-page.header__slogan">
+    The fastest way to build a successful MVP.
+  </p>
+</header>
+
+<section>
+  <h2>Get your project deployed to production in minutes</h2>
+
+  <p>
+    With a single command, Suspenders builds an application pre-configured for
+    deployment to <%= link_to("Heroku", data.site.heroku_url) %>.
+    With that out of the way, you can focus on building
+    your product's core features and getting them in front
+    of users in record time.
+  </p>
+</section>
+
+<section>
+  <h2> Leverage thoughbot's extensive Rails experience</h2>
+
+  <p>
+    Suspenders is the base Ruby on Rails application used at
+    <%= link_to("thoughtbot", data.site.thoughtbot_url) %>. It encodes
+    <%= Date.today.year - 2003 %> years of accumulated knowledge and opinions,
+    allowing you to lean on thoughtbot's extensive experience building
+    Ruby on Rails applications.
+  </p>
+</section>
+
+<section>
+  <h2>Focus on features instead of biolerplate</h2>
+
+  <p>
+    Rather than wasting time choosing libraries and configuring your
+    application, Suspenders allows you to skip over problems that have already
+    been solved and focus instead on the features that are unique to your
+    product.
+  </p>
+</section>
+
+<section>
+  <h2>Installation</h2>
+
+  First install the Suspenders gem:
+
+  <pre>gem install suspenders</pre>
+
+  Then create your project with the Suspenders template by running:
+
+  <pre>suspenders projectname</pre>
+
+  Or, if you plan to deploy to Heroku:
+
+  <pre>suspenders projectname --heroku true</pre>
+
+  Install additional pieces of functionality as needed by running generators:
+
+  <pre>bin/rails generate suspenders:<generator name></pre>
+</section>
+
+<section>
+  <h2>Documentation</h2>
+
+  List all of the generators with:
+
+  <pre>bin/rails generate | grep suspenders</pre>
+
+  Get more details about a specific generator by running:
+
+  <pre>bin/rails generate suspenders:<generator name> -h</pre>
+
+  For more details about what the Suspenders template offers, check out
+  <%= link_to "Suspenders on GitHub", data.site.github_url %>.
+</section>

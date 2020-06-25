@@ -1,0 +1,26 @@
+.c-site-nav {
+  align-items: center;
+  background-color: $white;
+  border-bottom: 1px solid $light-gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.57rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.c-site-nav__logo {
+  height: 39px;
+  margin-top: 2px;
+  width: 160px;
+}
+
+.c-site-nav__links {
+  display: flex;
+}
+
+.c-site-nav__link {
+  margin: 0 0.75rem;
+}

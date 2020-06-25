@@ -7,9 +7,13 @@
     <title>Suspenders</title>
     <%= stylesheet_link_tag "main" %>
   </head>
-  <body>
-    <main role="main">
-      <%= yield %>
-    </main>
+  <body class="tbds-app-frame">
+      <%= partial "partials/site_nav" %>
+
+      <main class="tbds-app-frame__body container container--body" id="main" role="main">
+        <%= yield %>
+      </main>
+
+      <%= partial "partials/site_footer" %>
   </body>
 </html>
