@@ -1,6 +1,6 @@
 # Suspenders
 
-This is the source code for the Suspenders website. It’s built with [Middleman].
+This is the source code for the [Suspenders website](https://suspenders.netlify.app/). It’s built with [Middleman].
 
 You can find the [Suspenders library source code here][suspenders].
 
